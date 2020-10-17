@@ -1,0 +1,38 @@
+body{
+    background-color: violet;
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+#regbox{
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    padding: 5%;
+    top: 20%;
+    left: 17%;
+    border-radius: 5px;
+}
+#regbox p{
+    padding: 0px;
+    font-weight: bolder;
+}
+#regbox .REG input{
+    width: 20%;
+    margin-bottom: 25px;
+}
+.Gender{
+    padding-left: 10%;
+}
+#regbox #Male,#regbox #Female{
+    width: 5%;
+}
+#sub{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 5px;
+}

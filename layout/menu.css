@@ -1,0 +1,24 @@
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('../anh/icon/bullet.gif') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-size: large;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('../anh/icon/bullet.jpg') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    font-weight: bold;
+    color: white;
+}

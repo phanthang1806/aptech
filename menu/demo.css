@@ -1,0 +1,42 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+	.info-prod{
+	width: 25%;
+	float: left;
+}
+	.products{
+		margin: 5px;
+		padding: 5px;
+		border: 1px solid black;
+		border-radius: 10px;
+		text-align: center;
+	}
+	.products > .name{
+		color: green;
+		font-variant: small-caps;
+		text-align: center;
+		font-size: 15px;
+	}
+	.products > .img{
+		margin-bottom: 10px;
+		width: 55%;
+		height: 28%;
+	}
+	.products > .price{
+		color: red;
+		text-align: center;
+	}
+	del{
+		color: gray;
+		margin-right: 5px;
+	}
+	.products:hover .name{
+		color: red;
+		font-size: 15px;
+		transition: all 1px;
+	}
+	.products:hover .price{
+		font-weight: bolder;
+	}
